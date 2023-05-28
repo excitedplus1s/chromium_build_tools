@@ -1,7 +1,7 @@
 # chromium_build_tools
-配置从 https://commondatastorage.googleapis.com/chromium-browser-official/ 下载的 Chromium 使之可以编译，整体下载量不超过2GB
+配置从 https://commondatastorage.googleapis.com/chromium-browser-official/ 下载的 Chromium 使之可以编译，整体科学上网下载流量不超过1.7GB
 
-由于中国大陆众所周知的原因，不能下载的文件可以通过 Github Action 做中转下载，阅读 download_win64_depends.py 获取更多信息
+由于中国大陆众所周知的原因，不能下载的文件可以通过 Github Action 做中转下载，阅读 download_win64_depends.py 获取更多信息，自己实现
 
 相关脚本仅仅支持了 Windows x64
 
@@ -12,7 +12,7 @@
 
 拷贝 `*.py *.bat` 到 depot_tools文件夹
 
-下载 chromium-113.0.5672.126，你可以下载你喜欢的版本
+下载 chromium-113.0.5672.126，你可以下载你喜欢的版本（此步需要科学上网下载，约 1.4G）
 
 https://commondatastorage.googleapis.com/chromium-browser-official/chromium-113.0.5672.126.tar.xz
 
@@ -26,7 +26,7 @@ https://commondatastorage.googleapis.com/chromium-browser-official/chromium-113.
 
 切换到 `depend_download` 文件夹
 
-执行 `download_win64_depends` 命令（此步需要科学上网，下载量约 340M)
+执行 `download_win64_depends` 命令（此步需要科学上网，下载量约 340M，实际大约155M左右的流量需要科学上网)
 
 命令执行成功后，你会看到一个叫做 `src` 的文件夹
 
