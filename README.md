@@ -18,7 +18,9 @@ copy `gclient_conf` to unziped floder `chromium-113.0.5672.126` , rename it to `
 
 create a new folder `depend_download` (on the upper level of `chromium-113.0.5672.126`)
 
-copy `.gclient` and `DEPS` to depend_download
+copy `.gclient` and `DEPS` to `depend_download`
+
+cd `depend_download`
 
 run `download_win64_depends`
 
