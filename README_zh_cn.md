@@ -16,7 +16,7 @@
 
 https://commondatastorage.googleapis.com/chromium-browser-official/chromium-113.0.5672.126.tar.xz
 
-或者使用[Chromium Downloader](https://chromium.msfconsole.cn/)
+或者使用[Chromium Downloader](https://chromium.msfconsole.cn/)(免去科学上网的痛苦）
 
 解压下载的代码
 
