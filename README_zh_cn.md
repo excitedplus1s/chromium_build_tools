@@ -1,5 +1,5 @@
 # chromium_build_tools
-配置从 https://commondatastorage.googleapis.com/chromium-browser-official/ 下载的 Chromium 使之可以编译，整体科学上网下载流量不超过1.7GB
+配置从 https://commondatastorage.googleapis.com/chromium-browser-official/ 下载的 Chromium 使之可以编译，整体科学上网下载流量不超过300M
 
 由于中国大陆众所周知的原因，不能下载的文件可以通过 Github Action 做中转下载，阅读 download_win64_depends.py 获取更多信息，自己实现
 
@@ -15,6 +15,8 @@
 下载 chromium-113.0.5672.126，你可以下载你喜欢的版本（此步需要科学上网下载，约 1.4G）
 
 https://commondatastorage.googleapis.com/chromium-browser-official/chromium-113.0.5672.126.tar.xz
+
+或者使用[Chromium Downloader](https://chromium.msfconsole.cn/)
 
 解压下载的代码
 
